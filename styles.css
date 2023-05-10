@@ -1,0 +1,54 @@
+.grid {
+  display: grid;
+  grid-template: 50vh 1fr / repeat(5, 1fr);
+  gap: 2px;
+  height: 150vh;
+}
+
+.grid-item {
+  border: 2px solid black;
+  margin: 2px 0 2px 0;
+}
+
+.static {
+  position: static;
+  background-color: #b7b6c2;
+}
+
+.relative {
+  position: relative;
+  background-color: #abd1b5;
+  top: 20px;
+  left: 20px;
+}
+
+.absolute {
+  position: absolute;
+  background-color: #97efe9;
+  top: 100px;
+  left: 100px;
+}
+
+.sticky {
+  position: sticky;
+  background-color: #ee964b;
+  top: 0;
+  left: 87.5%;
+}
+
+.fixed {
+  position: fixed;
+  background-color: #f4b942;
+  top: 10%;
+  left: 27.5%;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  height: 75px;
+  width: 75px;
+  border: 1px solid black;
+}
